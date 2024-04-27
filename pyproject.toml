@@ -2,4 +2,11 @@
 
 [project]
 name = "I-JEPA"
+dynamic = ["version", "description"]
+
+dependencies = [
+    "x-transformers @ git+https://github.com/nlahaye/x-transformers.git@main",
+]
+
+
 
